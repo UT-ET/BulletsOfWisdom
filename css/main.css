@@ -1,0 +1,69 @@
+
+
+.text-container {
+    max-width: 768px;
+    margin: auto;
+}
+
+.quote {
+    border: 1px none green;
+    font-family: 'Droid Sans';
+    font-size: 2.2rem;
+}
+
+.tilde {
+    border: 1px none blue;
+    text-align: center;
+    font-family: 'Droid Sans';
+    font-size: 1.2rem;
+}
+
+.spacing {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+.pic-left-align {
+    text-align:left;
+    transform:scale(0.8);
+}
+
+.intro-align {
+    font-family: 'Droid Sans';
+    font-size: 2.2rem;
+    margin-top: 5rem;
+}
+
+h1.heading-font#heading-size {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 6rem;
+    margin-bottom: 0rem;
+    margin-top: 6.5rem;
+    left: -2.45em;
+}
+
+.body {
+    font-family: 'Droid Sans';
+    font-size: 2.2rem;
+    margin-top: 5rem;
+}
+
+.new-jumbotron {
+    background-color: #111;
+    color: #fdd;
+    padding-top: 0.1rem;
+    padding-bottom: 0rem;
+    margin-bottom: 0.1rem;
+}
+
+.wrap-inside {
+}
+
+@media (max-width : 992px) {
+    h1.heading-font#heading-size {
+        left: 0em;
+    }
+    .pic-left-align {
+        text-align: center;;
+    }
+}
