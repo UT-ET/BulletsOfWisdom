@@ -67,3 +67,12 @@ h1.heading-font#heading-size {
         text-align: center;;
     }
 }
+
+
+footer.new-quote#footer-size {
+    position: fixed;
+    bottom: 0.5rem;
+    left: 1rem;
+    font font-family: 'Droid Sans';
+    font-size: 2rem;
+}
