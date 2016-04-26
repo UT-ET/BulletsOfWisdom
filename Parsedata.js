@@ -1,10 +1,11 @@
 var results = null;
-var template = '' +
-'<div class="row spacing">' +
-'<div class="col-md-8 col-xs-12 quote" id="quote-comp">$quote$</div>' +
-'<div class="col-md-1 col-xs-1 tilde">~</div>' +
-'<div class="col-md-3 col-xs-11 quote" id="contributor-name">$contributor$</div>' +
-'</div>';
+
+
+var template = ''+
+'<blockquote>' +
+'<p class="quote" id="quote-comp">$quote$</p>' +
+'<footer class="quote" id="contributor-name">said to $contributor$</footer>' +
+'</blockquote>';
 
 function getQuoteHTML(quote) {
 	return template.replace('$quote$', quote[0])
