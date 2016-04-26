@@ -15,7 +15,7 @@
     border: 1px none blue;
     text-align: center;
     font-family: 'Droid Sans';
-    font-size: 1.2rem;
+    font-size: 2rem;
 }
 
 .spacing {
@@ -50,7 +50,7 @@ h1.heading-font#heading-size {
 
 .new-jumbotron {
     background-color: #111;
-    color: #fdd;
+    color: #ddd;
     padding-top: 0.1rem;
     padding-bottom: 0rem;
     margin-bottom: 0.1rem;
