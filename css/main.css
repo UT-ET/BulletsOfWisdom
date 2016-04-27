@@ -18,6 +18,12 @@
     font-size: 2rem;
 }
 
+.verb {
+    text-align: center;
+    font-family: 'Droid Sans';
+    font-size: 1.5rem;
+}
+
 .spacing {
     margin-top: 3rem;
     margin-bottom: 1rem;
@@ -70,9 +76,18 @@ h1.heading-font#heading-size {
 
 
 footer.new-quote#footer-size {
-    position: fixed;
+    text-align: center;
+    margin-bottom: 0.5rem;
+    margin-left: 1rem;
+    font-family: 'Droid Sans';
+    font-size: 2rem;
+}
+
+footer.references#footer-size {
+    position: bottom;
+    text-align: right;
     bottom: 0.5rem;
-    left: 1rem;
+    left: 5rem;
     font font-family: 'Droid Sans';
     font-size: 2rem;
 }

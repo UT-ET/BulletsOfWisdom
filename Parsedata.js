@@ -42,5 +42,3 @@ var config = {
 	}
 };
 Papa.parse("Sxotes.tsv", config);
-// setTimeout(function() { data = "bar"; }, 0);
-// console.log("Data: ", );
