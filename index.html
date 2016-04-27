@@ -55,12 +55,27 @@
     <hr>
 </div>
 
-
 <footer class="new-quote" id="footer-size">
-    Keep the tradition alive by submitting more quotes <a href="https://docs.google.com/forms/d/1aIRYec7cmwHzN-ttZasw5-iFLnbpifvwjm34ik_zwjA/viewform" target="_blank">here</a>.
-    <p>Made with <span class="text-danger glyphicon glyphicon-heart new-quote" id="footer-size"></span> using <a href="https://http://getbootstrap.com/" target="_blank">Bootstrap</a>.</p>
+    <div class="text-container">
+        Keep the tradition alive by submitting more quotes <a href="https://docs.google.com/forms/d/1aIRYec7cmwHzN-ttZasw5-iFLnbpifvwjm34ik_zwjA/viewform" target="_blank">here</a>.
+        <p>Made with <span class="text-danger glyphicon glyphicon-heart new-quote" id="footer-size"></span> using <a href="https://http://getbootstrap.com/" target="_blank">Bootstrap</a>.</p>
+
+        <ul class="footer-nav">
+            <li> <a href="https://twitter.com/share" class="twitter-share-button" data-hashtags="MakeSaxenaJiGreatAgain">Tweet</a></li>
+            <li>
+                <div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/"
+                data-layout="button_count" data-mobile-iframe="true"></div>
+                <div id="fb-root"></div>
+            </li>
+            <li><g:plusone></g:plusone></li>
+        </ul>
+    </div>
 </footer>
+
+<!-- Own script -->
 <script src="Parsedata.js"></script>
+
+<!-- Google Analtics -->
 <script>
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -70,6 +85,20 @@ ga('create', 'UA-76705415-3', 'auto');
 ga('send', 'pageview');
 </script>
 
+<!-- Twitter -->
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+<!-- Facebook -->
+<script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<!-- Google Plus -->
+<script src="https://apis.google.com/js/platform.js" async defer></script>
 
 </body>
 </html>

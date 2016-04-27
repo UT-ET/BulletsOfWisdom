@@ -91,3 +91,16 @@ footer.references#footer-size {
     font font-family: 'Droid Sans';
     font-size: 2rem;
 }
+
+ul.footer-nav {
+    list-style-type: none;
+    display: flex;
+}
+
+ul.footer-nav li {
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+}
