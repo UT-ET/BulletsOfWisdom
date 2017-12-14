@@ -1,4 +1,4 @@
-# BulletsOFWisdom
+# BulletsOfWisdom
 
 Perserving Saxena ji's yogism for posterity.
 
